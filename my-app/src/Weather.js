@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./Weather.css";
 
 
 export default function Weather() {
@@ -35,7 +36,7 @@ export default function Weather() {
 
   const form = (
     <form onSubmit={handleSubmit}>
-      <input
+      <input 
         type="search"
         placeholder="Enter a city..."
         onChange={updateCity}
