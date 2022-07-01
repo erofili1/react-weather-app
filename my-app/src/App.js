@@ -1,6 +1,6 @@
 import './App.css';
 import Weather from "./Weather";
-import { ThreeDots } from  'react-loader-spinner';
+import { Rings } from  'react-loader-spinner';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Hello from React</h1>
         <Weather city="Chania" />
-        <ThreeDots
+        <Rings
           height="100"
           width="100"
           color='grey'
