@@ -61,9 +61,16 @@ export default function Weather() {
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>
+        <p><a href="https://github.com/erofili1/react-weather-app">Open source code</a> by Erofili Pateraki</p>
       </div>
     );
   }
+  
+  return (
+    <div>
+      {form}
+      <p><a href="https://github.com/erofili1/react-weather-app">Open source code</a> by Erofili Pateraki</p>
 
-  return form;
+    </div>
+    );
 }
